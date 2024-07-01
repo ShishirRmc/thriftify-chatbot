@@ -2,37 +2,12 @@
 
 A simple chatbot made using Flask, JavaScript, HTML, and CSS. This chatbot is a subproject for the thrift store web app, we designed to enhance user interaction and assist users. The model is trained using custom data preprocessed specifically for this project, reflecting my passion for machine learning and chatbots.
 
-## Project Structure
-
-thriftify-chatbot/
-│
-├── bot/
-│ ├── templates/
-│ │ └── index.html
-│ ├── static/
-│ │ ├── style.css
-│ │ ├── script.js
-│ │ ├── bot_image.png
-│ │ ├── send.png
-│ │ └── notification.mp3
-│ ├── models/
-│ │ ├── chatbot_model1.h5
-│ │ ├── words.pkl
-│ │ └── classes.pkl
-│ └── data/
-│ └── intents1.json
-│
-├── app.py
-├── README.md
-└── requirements.txt
-
-
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/chatbot_project.git
-    cd chatbot_project
+    git clone https://github.com/yourusername/chatbot_project.git](https://github.com/ShishirRmc/thriftify-chatbot.git
+    cd thriftify-chatbot
     ```
 
 2. Create a virtual environment and activate it:
