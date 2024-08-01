@@ -1,0 +1,644 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey! Welcome to Thriftify.",
+                "Hello, thanks for visiting Thriftify.",
+                "Hi there! How can I assist you today?",
+                "Good day! What can I do for you today at Thriftify?"
+            ]
+        },
+        {
+            "tag": "personal",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "How is your day?"
+            ],
+            "responses": [
+                "I'm doing great, thank you! How can I assist you on Thriftify?"
+            ]
+        },
+        {
+            "tag": "user response",
+            "patterns": [
+                "I'm good",
+                "Im good",
+                "Im doing good",
+                "I am good",
+                "I am okay"
+            ],
+            "responses": [
+                "That's great to hear! How can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Goodbye! Thanks for using Thriftify. Hope to see you again!",
+                "See you later! Have a great day."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "thx",
+                "thnks"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "available items",
+            "patterns": [
+                "What items are available?",
+                "What can I buy?",
+                "Do you have any new items?",
+                "What do you sell?",
+                "What items do you offer?"
+            ],
+            "responses": [
+                "You can browse our selection of used items on the Thriftify store. Use our search feature to find specific items or categories."
+            ]
+        },
+        {
+            "tag": "payment methods",
+            "patterns": [
+                "How can I pay?",
+                "What payment methods do you accept?",
+                "Do you take credit cards?",
+                "Can I use cash?",
+                "How do I pay for items?"
+            ],
+            "responses": [
+                "Payment methods are agreed upon you and the seller. We accept payments via secure online transfers like khalti, esewa and mobile banking. Cash is not accepted for security reasons."
+            ]
+        },
+        {
+            "tag": "order confirmation",
+            "patterns": [
+                "I didn't get an order confirmation.",
+                "Where is my order confirmation?",
+                "Order confirmed but no email"
+            ],
+            "responses": [
+                "If you haven't received an order confirmation, please check your spam folder. Otherwise, contact Thriftify support for assistance."
+            ]
+        },
+        {
+            "tag": "contact support",
+            "patterns": [
+                "How do I contact support?",
+                "Need more help",
+                "Can I talk to an agent?",
+                "Customer service",
+                "Help me"
+            ],
+            "responses": [
+                "You can reach Thriftify support via the 'Contact Us' section on our website or by calling our support number during business hours."
+            ]
+        },
+        {
+            "tag": "cancel order",
+            "patterns": [
+                "Can I cancel my order?",
+                "How do I cancel an order?",
+                "Cancel my order",
+                "Order cancellation"
+            ],
+            "responses": [
+                "You can cancel your order within 24 hours of placing it by visiting the 'My Orders' section in your account."
+            ]
+        },
+        {
+            "tag": "refund policy",
+            "patterns": [
+                "What is the refund policy?",
+                "Can I get a refund?",
+                "How do refunds work?",
+                "Refunds"
+            ],
+            "responses": [
+                "Sorry we won't encourage refunds. Check items before buying it from the seller."
+            ]
+        },
+        {
+            "tag": "return policy",
+            "patterns": [
+                "What is the return policy?",
+                "How do I return an item?",
+                "Can I return something?",
+                "Returns"
+            ],
+            "responses": [
+                "Items can be returned based on the understanding of the seller and buyer. Visit the 'Returns' section in your account to start a return."
+            ]
+        },
+        {
+            "tag": "account settings",
+            "patterns": [
+                "How do I change my account settings?",
+                "Update profile",
+                "Change account details",
+                "Edit profile"
+            ],
+            "responses": [
+                "You can update your account settings by visiting the 'Profile' section in your Thriftify account. You can change your email, password, address, and other details."
+            ]
+        },
+        {
+            "tag": "recommendations",
+            "patterns": [
+                "Can you recommend items?",
+                "What should I buy?",
+                "Recommend items",
+                "Show me recommended items"
+            ],
+            "responses": [
+                "Based on your browsing history and preferences, here are some recommended items. [Include a link to recommendations or a list of items if possible.]"
+            ]
+        },
+        {
+            "tag": "seller help",
+            "patterns": [
+                "How do I sell items?",
+                "Can I sell on Thriftify?",
+                "Selling items",
+                "List an item for sale"
+            ],
+            "responses": [
+                "To sell items on Thriftify, create an account, list your items with photos and descriptions, and wait for buyers to contact you."
+            ]
+        },
+        {
+            "tag": "buyer help",
+            "patterns": [
+                "How do I buy items?",
+                "Buying items",
+                "How to purchase",
+                "Purchase an item"
+            ],
+            "responses": [
+                "To buy items on Thriftify, browse or search for items, then message the seller directly to discuss the purchase, payment, and pickup/delivery details."
+            ]
+        },
+        {
+            "tag": "safe transaction",
+            "patterns": [
+                "Is it safe to buy here?",
+                "How do you ensure safe transactions?",
+                "Secure buying",
+                "Transaction safety"
+            ],
+            "responses": [
+                "Thriftify ensures safe transactions by using secure payment gateways and encrypted data transmission. Always confirm payment before proceeding with delivery."
+            ]
+        },
+        {
+            "tag": "filter items",
+            "patterns": [
+                "How do I filter items?",
+                "Can I sort items?",
+                "Filtering options",
+                "Item filters"
+            ],
+            "responses": [
+                "You can filter items by category, price, location, and other criteria using the filter options on the Thriftify search page."
+            ]
+        },
+        {
+            "tag": "location based",
+            "patterns": [
+                "Can I find local sellers?",
+                "Nearby items",
+                "Local buying",
+                "Items near me"
+            ],
+            "responses": [
+                "You can find local sellers by using the location filter on the Thriftify search page. Enter your location to see items available nearby."
+            ]
+        },
+        {
+            "tag": "shipping costs",
+            "patterns": [
+                "How much is shipping?",
+                "What are the shipping fees?",
+                "How much does delivery cost?",
+                "Shipping cost",
+                "Delivery charges"
+            ],
+            "responses": [
+                "Shipping costs vary based on the item size, weight, and delivery location. You can view the shipping fee at checkout."
+            ]
+        },
+        {
+            "tag": "site navigation",
+            "patterns": [
+                "How do I navigate the site?",
+                "Where is the search bar?",
+                "How can I find items?",
+                "Site navigation"
+            ],
+            "responses": [
+                "You can use the search bar at the top of the page or browse categories from the main menu to find items on Thriftify."
+            ]
+        },
+        {
+            "tag": "featured items",
+            "patterns": [
+                "What are the featured items?",
+                "Show me featured products",
+                "What's popular?",
+                "Featured items"
+            ],
+            "responses": [
+                "Our featured items include popular and trending products. Check the homepage or the 'Featured' section for more."
+            ]
+        },
+        {
+            "tag": "app issues",
+            "patterns": [
+                "The app isn't working",
+                "I'm having trouble with the app",
+                "App issues",
+                "App not responding"
+            ],
+            "responses": [
+                "If you're experiencing issues with the Thriftify app, please try restarting it or reinstalling. For further help, contact our support team."
+            ]
+        },
+        {
+            "tag": "safety tips",
+            "patterns": [
+                "How do I stay safe while buying?",
+                "Any tips for safe buying?",
+                "How can I buy safely?",
+                "Safety tips",
+                "Buying safety"
+            ],
+            "responses": [
+                "Ensure safe transactions by communicating within Thriftify, verifying payment before shipping, and checking seller ratings."
+            ]
+        },
+        {
+            "tag": "dispute resolution",
+            "patterns": [
+                "How do I resolve a dispute?",
+                "What if there's an issue with my order?",
+                "Dispute resolution",
+                "Order problem resolution"
+            ],
+            "responses": [
+                "For dispute resolution, contact our support team with your order details, and we will assist you in resolving the issue."
+            ]
+        },
+        {
+            "tag": "bulk buying",
+            "patterns": [
+                "Can I buy items in bulk?",
+                "Do you offer bulk discounts?",
+                "Bulk buying",
+                "Bulk purchase options"
+            ],
+            "responses": [
+                "For bulk purchases, contact our sales team for special pricing and offers. You can also find bulk listings on our platform."
+            ]
+        },
+        {
+            "tag": "new arrivals",
+            "patterns": [
+                "What are the latest arrivals?",
+                "Show me new items",
+                "Newly added items",
+                "New arrivals"
+            ],
+            "responses": [
+                "Check the our homepage for the latest items added to Thriftify."
+            ]
+        },
+        {
+            "tag": "favorites",
+            "patterns": [
+                "How do I add items to favorites?",
+                "Can I save items for later?",
+                "Favorites",
+                "Save items"
+            ],
+            "responses": [
+                "To add items to your favorites, click the heart icon on the product page. You can view saved items in your account."
+            ]
+        },
+        {
+            "tag": "notifications",
+            "patterns": [
+                "How do I manage notifications?",
+                "Turn off notifications",
+                "Notification settings",
+                "Manage alerts"
+            ],
+            "responses": [
+                "Manage your notifications by visiting the 'Settings' section in your account. You can customize alerts for new items, promotions, and more."
+            ]
+        },
+        {
+            "tag": "contact seller",
+            "patterns": [
+                "How do I contact the seller?",
+                "Can I message the seller?",
+                "Contact seller",
+                "Message seller"
+            ],
+            "responses": [
+                "To contact a seller, visit the product page and click 'Message' to send a message through Thriftify."
+            ]
+        },
+        {
+            "tag": "listing guidelines",
+            "patterns": [
+                "What are the guidelines for listing items?",
+                "How do I list items?",
+                "Listing rules",
+                "Item listing guidelines"
+            ],
+            "responses": [
+                "Check our 'Seller Guidelines' page for detailed instructions on listing items, including requirements for photos, descriptions, and pricing."
+            ]
+        },
+        {
+            "tag": "order history",
+            "patterns": [
+                "How do I view my order history?",
+                "Where is my purchase history?",
+                "Order history",
+                "Past orders"
+            ],
+            "responses": [
+                "You can view your order history by logging into your Thriftify account and clicking on the 'Order History' tab."
+            ]
+        },
+        {
+            "tag": "returns processing",
+            "patterns": [
+                "How long does it take to process returns?",
+                "Return processing time",
+                "When will my return be processed?",
+                "Return handling time"
+            ],
+            "responses": [
+                "Returns are processed within 5-7 business days after receiving the item. You will be notified once your return is completed."
+            ]
+        },
+        {
+            "tag": "user privacy",
+            "patterns": [
+                "How is my data protected?",
+                "Privacy policy",
+                "Is my information safe?",
+                "User privacy",
+                "Data protection"
+            ],
+            "responses": [
+                "Your privacy is important to us. We use encryption and secure servers to protect your data. Check our Privacy Policy for more details."
+            ]
+        },
+        {
+            "tag": "item condition",
+            "patterns": [
+                "What is the condition of used items?",
+                "Are the items new or used?",
+                "Item condition",
+                "Condition of products"
+            ],
+            "responses": [
+                "Items on Thriftify are generally used but in good condition. Each listing includes details about the item's condition."
+            ]
+        },
+        {
+            "tag": "inventory update",
+            "patterns": [
+                "How often is the inventory updated?",
+                "When are new items added?",
+                "Inventory updates",
+                "Update frequency"
+            ],
+            "responses": [
+                "Our inventory is updated regularly as new items are listed by sellers. Check back often for the latest additions."
+            ]
+        },
+        {
+            "tag": "payment issues",
+            "patterns": [
+                "I'm having trouble with payment",
+                "Payment failed",
+                "Issues with payment",
+                "Payment not going through"
+            ],
+            "responses": [
+                "If you're experiencing payment issues, please check your payment details or try a different method. Contact support if the problem persists."
+            ]
+        },
+        {
+            "tag": "track order",
+            "patterns": [
+                "How can I track my order?",
+                "Where is my order?",
+                "Can I track my purchase?",
+                "Track my order"
+            ],
+            "responses": [
+                "To track your order, please message the seller directly. They will provide you with updates on your purchase status."
+            ]
+        },
+        {
+            "tag": "delivery time",
+            "patterns": [
+                "How long does delivery take?",
+                "When will my order arrive?",
+                "What's the delivery time?",
+                "Delivery time",
+                "How long for shipping?"
+            ],
+            "responses": [
+                "Thriftify doesn't handle deliveries. Please discuss pickup or delivery arrangements directly with the seller through our messaging system."
+            ]
+        },
+        {
+            "tag": "order delay",
+            "patterns": [
+                "Why is my order delayed?",
+                "My order is late.",
+                "Where is my purchase?",
+                "Order delayed"
+            ],
+            "responses": [
+                "For updates on your order status, please message the seller directly. They can provide you with the most up-to-date information."
+            ]
+        },
+        {
+            "tag": "payment methods",
+            "patterns": [
+                "How can I pay?",
+                "What payment methods do you accept?",
+                "Do you take credit cards?",
+                "Can I use cash?",
+                "How do I pay for items?"
+            ],
+            "responses": [
+                "Payment methods are agreed upon between you and the seller. Discuss preferred payment options with the seller through our messaging system."
+            ]
+        },
+        {
+            "tag": "safe transaction",
+            "patterns": [
+                "Is it safe to buy here?",
+                "How do you ensure safe transactions?",
+                "Secure buying",
+                "Transaction safety"
+            ],
+            "responses": [
+                "Thriftify ensures safe transactions by providing a secure messaging platform. Always communicate through our system and agree on payment and item exchange details with the seller before proceeding."
+            ]
+        },
+        {
+            "tag": "buyer help",
+            "patterns": [
+                "How do I buy items?",
+                "Buying items",
+                "How to purchase",
+                "Purchase an item"
+            ],
+            "responses": [
+                "To buy items on Thriftify, browse or search for items, then message the seller directly to discuss the purchase, payment, and pickup/delivery details."
+            ]
+        },
+        {
+            "tag": "message seller",
+            "patterns": [
+                "How do I start a conversation with the seller?",
+                "Can I chat with the seller before buying?",
+                "Initiate contact with seller",
+                "Start messaging a seller"
+            ],
+            "responses": [
+                "To message a seller, go to the item listing and click on the 'Message Seller' button. You can then discuss details about the item, arrange payment, and coordinate pickup or delivery."
+            ]
+        },
+        {
+            "tag": "arrange pickup",
+            "patterns": [
+                "How do I arrange item pickup?",
+                "Can I pick up the item myself?",
+                "Pickup arrangements",
+                "Meet seller for item"
+            ],
+            "responses": [
+                "To arrange pickup, discuss a convenient time and location with the seller through our messaging system. Always prioritize safety when meeting for item exchanges."
+            ]
+        },
+        {
+            "tag": "price negotiation",
+            "patterns": [
+                "Can I negotiate the price?",
+                "How do I make an offer?",
+                "Is the price flexible?",
+                "Bargain with seller"
+            ],
+            "responses": [
+                "Price negotiation is between you and the seller. Feel free to discuss the price through our messaging system, but always be respectful and reasonable in your offers."
+            ]
+        },
+        {
+            "tag": "item availability",
+            "patterns": [
+                "Is this item still available?",
+                "How do I know if an item is sold?",
+                "Check item availability",
+                "Item already sold?"
+            ],
+            "responses": [
+                "To check item availability, message the seller directly. Sellers are encouraged to update their listings, but it's best to confirm availability before making payment arrangements."
+            ]
+        },
+        {
+            "tag": "payment arrangement",
+            "patterns": [
+                "How do we arrange payment?",
+                "What's the safest way to pay?",
+                "Payment options with seller",
+                "Secure payment methods"
+            ],
+            "responses": [
+                "Discuss payment arrangements with the seller through our messaging system. Agree on a payment method that's comfortable for both parties. Always prioritize secure payment methods and be cautious of potential scams."
+            ]
+        },
+        {
+            "tag": "meet in person",
+            "patterns": [
+                "Is it safe to meet the seller?",
+                "Tips for meeting sellers",
+                "Safety for in-person meetups",
+                "Where to meet sellers"
+            ],
+            "responses": [
+                "When meeting sellers in person, always choose a safe, public location. Consider bringing a friend, and trust your instincts. If something feels off, don't proceed with the transaction."
+            ]
+        },
+        {
+            "tag": "transaction process",
+            "patterns": [
+                "How does buying work on Thriftify?",
+                "Explain the purchase process",
+                "Steps to buy an item",
+                "How to complete a transaction"
+            ],
+            "responses": [
+                "The buying process on Thriftify is: 1) Find an item you like, 2) Message the seller to confirm availability and details, 3) Agree on price and payment method, 4) Arrange pickup or delivery, 5) Complete the transaction in person or as agreed with the seller."
+            ]
+        },
+        {
+            "tag": "chat etiquette",
+            "patterns": [
+                "How should I talk to sellers?",
+                "Chat etiquette on Thriftify",
+                "Being polite in messages",
+                "Communication guidelines"
+            ],
+            "responses": [
+                "When chatting with sellers, be polite and respectful. Be clear about your interests and questions. Respond promptly and honor your commitments. If you change your mind, let the seller know as soon as possible."
+            ]
+        },
+        {
+            "tag": "report issues",
+            "patterns": [
+                "How do I report a problem with a seller?",
+                "Seller isn't responding",
+                "Report scam attempts",
+                "Issues with transactions"
+            ],
+            "responses": [
+                "If you encounter issues with a seller or suspect fraudulent activity, please report it immediately through our 'Report a Problem' feature in the app or website. Our support team will investigate and take appropriate action."
+            ]
+        }
+    ]
+}
